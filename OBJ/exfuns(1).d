@@ -1,0 +1,17 @@
+..\OBJ\exfuns.o: ..\FATFS\exfuns\exfuns.c
+..\OBJ\exfuns.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\string.h
+..\OBJ\exfuns.o: ..\FATFS\exfuns\exfuns.h
+..\OBJ\exfuns.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\exfuns.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\exfuns.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\exfuns.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\exfuns.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\exfuns.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\exfuns.o: ..\FATFS\src\ff.h
+..\OBJ\exfuns.o: ..\FATFS\src\integer.h
+..\OBJ\exfuns.o: ..\FATFS\src\ffconf.h
+..\OBJ\exfuns.o: ..\FATFS\exfuns\fattester.h
+..\OBJ\exfuns.o: ..\MALLOC\malloc.h
+..\OBJ\exfuns.o: ..\SYSTEM\usart\usart.h
+..\OBJ\exfuns.o: ..\SYSTEM\sys\sys.h
+..\OBJ\exfuns.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdio.h

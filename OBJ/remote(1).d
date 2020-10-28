@@ -1,0 +1,12 @@
+..\OBJ\remote.o: ..\HARDWARE\REMOTE\remote.c
+..\OBJ\remote.o: ..\HARDWARE\REMOTE\remote.h
+..\OBJ\remote.o: ..\SYSTEM\sys\sys.h
+..\OBJ\remote.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\remote.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\remote.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\remote.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\remote.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\remote.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\remote.o: ..\SYSTEM\delay\delay.h
+..\OBJ\remote.o: ..\SYSTEM\usart\usart.h
+..\OBJ\remote.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdio.h

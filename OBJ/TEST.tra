@@ -1,0 +1,75 @@
+*** Creating Trace Output File '..\OBJ\TEST.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\obj\test.o"'
+### List of Objects: adding '"..\obj\delay.o"'
+### List of Objects: adding '"..\obj\sys.o"'
+### List of Objects: adding '"..\obj\usart.o"'
+### List of Objects: adding '"..\obj\key.o"'
+### List of Objects: adding '"..\obj\led.o"'
+### List of Objects: adding '"..\obj\timer.o"'
+### List of Objects: adding '"..\obj\ili93xx.o"'
+### List of Objects: adding '"..\obj\rtc.o"'
+### List of Objects: adding '"..\obj\wkup.o"'
+### List of Objects: adding '"..\obj\adc.o"'
+### List of Objects: adding '"..\obj\24cxx.o"'
+### List of Objects: adding '"..\obj\myiic.o"'
+### List of Objects: adding '"..\obj\spi.o"'
+### List of Objects: adding '"..\obj\flash.o"'
+### List of Objects: adding '"..\obj\touch.o"'
+### List of Objects: adding '"..\obj\ctiic.o"'
+### List of Objects: adding '"..\obj\ott2001a.o"'
+### List of Objects: adding '"..\obj\gt9147.o"'
+### List of Objects: adding '"..\obj\ds18b20.o"'
+### List of Objects: adding '"..\obj\mmc_sd.o"'
+### List of Objects: adding '"..\obj\wdg.o"'
+### List of Objects: adding '"..\obj\malloc.o"'
+### List of Objects: adding '"..\obj\diskio.o"'
+### List of Objects: adding '"..\obj\ff.o"'
+### List of Objects: adding '"..\obj\exfuns.o"'
+### List of Objects: adding '"..\obj\fattester.o"'
+### List of Objects: adding '"..\obj\mycc936.o"'
+### List of Objects: adding '"..\obj\fontupd.o"'
+### List of Objects: adding '"..\obj\text.o"'
+### List of Objects: adding '"..\obj\os_core.o"'
+### List of Objects: adding '"..\obj\os_flag.o"'
+### List of Objects: adding '"..\obj\os_mbox.o"'
+### List of Objects: adding '"..\obj\os_mem.o"'
+### List of Objects: adding '"..\obj\os_mutex.o"'
+### List of Objects: adding '"..\obj\os_q.o"'
+### List of Objects: adding '"..\obj\os_sem.o"'
+### List of Objects: adding '"..\obj\os_task.o"'
+### List of Objects: adding '"..\obj\os_time.o"'
+### List of Objects: adding '"..\obj\os_tmr.o"'
+### List of Objects: adding '"..\obj\os_cpu_c.o"'
+### List of Objects: adding '"..\obj\os_cpu_a.o"'
+### List of Objects: adding '"..\obj\button.o"'
+### List of Objects: adding '"..\obj\edit.o"'
+### List of Objects: adding '"..\obj\filelistbox.o"'
+### List of Objects: adding '"..\obj\gui.o"'
+### List of Objects: adding '"..\obj\listbox.o"'
+### List of Objects: adding '"..\obj\memo.o"'
+### List of Objects: adding '"..\obj\progressbar.o"'
+### List of Objects: adding '"..\obj\scrollbar.o"'
+### List of Objects: adding '"..\obj\window.o"'
+### List of Objects: adding '"..\obj\bmp.o"'
+### List of Objects: adding '"..\obj\gif.o"'
+### List of Objects: adding '"..\obj\piclib.o"'
+### List of Objects: adding '"..\obj\tjpgd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\obj\startup_stm32f10x_hd.o" "..\obj\test.o" "..\obj\delay.o" "..\obj\sys.o" "..\obj\usart.o" "..\obj\key.o" "..\obj\led.o" "..\obj\timer.o" "..\obj\ili93xx.o" "..\obj\rtc.o" "..\obj\wkup.o" "..\obj\adc.o" "..\obj\24cxx.o" "..\obj\myiic.o" "..\obj\spi.o" "..\obj\flash.o" "..\obj\touch.o" "..\obj\ctiic.o" "..\obj\ott2001a.o" "..\obj\gt9147.o" "..\obj\ds18b20.o" "..\obj\mmc_sd.o" "..\obj\wdg.o" "..\obj\malloc.o" "..\obj\diskio.o" "..\obj\ff.o" "..\obj\exfuns.o" "..\obj\fattester.o" "..\obj\mycc936.o" "..\obj\fontupd.o" "..\obj\text.o" "..\obj\os_core.o" "..\obj\os_flag.o" "..\obj\os_mbox.o" "..\obj\os_mem.o" "..\obj\os_mutex.o" "..\obj\os_q.o" "..\obj\os_sem.o" "..\obj\os_task.o" "..\obj\os_time.o" "..\obj\os_tmr.o" "..\obj\os_cpu_c.o" "..\obj\os_cpu_a.o" "..\obj\button.o" "..\obj\edit.o" "..\obj\filelistbox.o" "..\obj\gui.o" "..\obj\listbox.o" "..\obj\memo.o" "..\obj\progressbar.o" "..\obj\scrollbar.o" "..\obj\window.o" "..\obj\bmp.o" "..\obj\gif.o" "..\obj\piclib.o" "..\obj\tjpgd.o" 
+--strict --scatter "..\OBJ\TEST.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\OBJ\TEST.map" -o ..\OBJ\TEST.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OBJ\TEST.axf'
+### ADS-LD Command File: '..\OBJ\TEST.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OBJ\TEST.lnp', Handle=0x0000CF50
+### Writing '.lnp' file
+### ADS-LD Command file '..\OBJ\TEST.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

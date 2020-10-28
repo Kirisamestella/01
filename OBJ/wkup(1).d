@@ -1,0 +1,11 @@
+..\OBJ\wkup.o: ..\HARDWARE\WKUP\wkup.c
+..\OBJ\wkup.o: ..\HARDWARE\WKUP\wkup.h
+..\OBJ\wkup.o: ..\SYSTEM\sys\sys.h
+..\OBJ\wkup.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\wkup.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\wkup.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\wkup.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\wkup.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\wkup.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\wkup.o: ..\HARDWARE\LED\led.h
+..\OBJ\wkup.o: ..\SYSTEM\delay\delay.h

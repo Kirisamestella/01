@@ -1,0 +1,13 @@
+..\OBJ\pyinput.o: ..\T9INPUT\pyinput.c
+..\OBJ\pyinput.o: ..\SYSTEM\sys\sys.h
+..\OBJ\pyinput.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\pyinput.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\pyinput.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\pyinput.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\pyinput.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\pyinput.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\pyinput.o: ..\SYSTEM\usart\usart.h
+..\OBJ\pyinput.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdio.h
+..\OBJ\pyinput.o: ..\T9INPUT\pymb.h
+..\OBJ\pyinput.o: ..\T9INPUT\pyinput.h
+..\OBJ\pyinput.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\string.h

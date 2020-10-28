@@ -1,0 +1,14 @@
+..\OBJ\ili93xx.o: ..\HARDWARE\LCD\ILI93xx.c
+..\OBJ\ili93xx.o: ..\HARDWARE\LCD\lcd.h
+..\OBJ\ili93xx.o: ..\SYSTEM\sys\sys.h
+..\OBJ\ili93xx.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\ili93xx.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\ili93xx.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\ili93xx.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\ili93xx.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\ili93xx.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\ili93xx.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdlib.h
+..\OBJ\ili93xx.o: ..\HARDWARE\LCD\font.h
+..\OBJ\ili93xx.o: ..\SYSTEM\usart\usart.h
+..\OBJ\ili93xx.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdio.h
+..\OBJ\ili93xx.o: ..\SYSTEM\delay\delay.h

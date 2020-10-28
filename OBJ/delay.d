@@ -1,0 +1,17 @@
+..\obj\delay.o: ..\SYSTEM\delay\delay.c
+..\obj\delay.o: ..\SYSTEM\delay\delay.h
+..\obj\delay.o: ..\SYSTEM\sys\sys.h
+..\obj\delay.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\delay.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\delay.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\delay.o: ..\UCOSII\CONFIG\includes.h
+..\obj\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\delay.o: ..\UCOSII\CORE\ucos_ii.h
+..\obj\delay.o: ..\UCOSII\CONFIG\includes.h
+..\obj\delay.o: ..\UCOSII\CONFIG\os_cfg.h
+..\obj\delay.o: ..\UCOSII\PORT\os_cpu.h

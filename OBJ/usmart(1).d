@@ -1,0 +1,12 @@
+..\OBJ\usmart.o: ..\USMART\usmart.c
+..\OBJ\usmart.o: ..\USMART\usmart.h
+..\OBJ\usmart.o: ..\USMART\usmart_str.h
+..\OBJ\usmart.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\usmart.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\usmart.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\usmart.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\usmart.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\usmart.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\usmart.o: ..\SYSTEM\usart\usart.h
+..\OBJ\usmart.o: ..\SYSTEM\sys\sys.h
+..\OBJ\usmart.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdio.h

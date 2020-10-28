@@ -1,0 +1,10 @@
+..\OBJ\ctiic.o: ..\HARDWARE\TOUCH\ctiic.c
+..\OBJ\ctiic.o: ..\HARDWARE\TOUCH\ctiic.h
+..\OBJ\ctiic.o: ..\SYSTEM\sys\sys.h
+..\OBJ\ctiic.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\ctiic.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\ctiic.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\ctiic.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\ctiic.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\ctiic.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\ctiic.o: ..\SYSTEM\delay\delay.h

@@ -1,0 +1,13 @@
+..\OBJ\scsi_data.o: ..\USB\CONFIG\scsi_data.c
+..\OBJ\scsi_data.o: ..\USB\CONFIG\usb_scsi.h
+..\OBJ\scsi_data.o: ..\USB\CONFIG\hw_config.h
+..\OBJ\scsi_data.o: ..\USB\CONFIG\platform_config.h
+..\OBJ\scsi_data.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\scsi_data.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\scsi_data.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\scsi_data.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\scsi_data.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\scsi_data.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\scsi_data.o: ..\USB\LIB\usb_type.h
+..\OBJ\scsi_data.o: ..\USB\CONFIG\usb_conf.h
+..\OBJ\scsi_data.o: ..\USB\CONFIG\memory.h

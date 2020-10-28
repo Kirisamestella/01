@@ -1,0 +1,17 @@
+..\OBJ\edit.o: ..\GUI\edit.c
+..\OBJ\edit.o: ..\GUI\edit.h
+..\OBJ\edit.o: ..\GUI\guix.h
+..\OBJ\edit.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\edit.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\edit.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\edit.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\edit.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\edit.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\edit.o: ..\MALLOC\malloc.h
+..\OBJ\edit.o: ..\HARDWARE\LCD\lcd.h
+..\OBJ\edit.o: ..\SYSTEM\sys\sys.h
+..\OBJ\edit.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdlib.h
+..\OBJ\edit.o: ..\SYSTEM\usart\usart.h
+..\OBJ\edit.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdio.h
+..\OBJ\edit.o: ..\SYSTEM\delay\delay.h
+..\OBJ\edit.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\string.h

@@ -1,0 +1,10 @@
+..\OBJ\myiic.o: ..\HARDWARE\24CXX\myiic.c
+..\OBJ\myiic.o: ..\HARDWARE\24CXX\myiic.h
+..\OBJ\myiic.o: ..\SYSTEM\sys\sys.h
+..\OBJ\myiic.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\myiic.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\myiic.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\myiic.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\myiic.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\myiic.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\myiic.o: ..\SYSTEM\delay\delay.h

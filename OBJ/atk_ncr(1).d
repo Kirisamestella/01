@@ -1,0 +1,9 @@
+..\OBJ\atk_ncr.o: ..\ATKNCR\atk_ncr.c
+..\OBJ\atk_ncr.o: ..\ATKNCR\atk_ncr.h
+..\OBJ\atk_ncr.o: ..\MALLOC\malloc.h
+..\OBJ\atk_ncr.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\atk_ncr.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\atk_ncr.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\atk_ncr.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\atk_ncr.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\atk_ncr.o: ..\SYSTEM\sys\system_stm32f10x.h

@@ -1,0 +1,271 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 23 569594725@qq.com, 42, LIC=2TTNN-YK8GM-RERH3-AH29W-H4EUU-5XS48
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\56959\Documents\WeChat Files\wxid_8ramlpifxjlp22\FileStorage\File\2020-05\TEXT20.0(1)\TEXT19.0\TEXT19.0\USER\TEST.uvprojx
+Project File Date:  02/24/2020
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+test.c(307): warning:  #68-D: integer conversion resulted in a change of sign
+  u8 address_pointer=-1;//高亮指针
+test.c(337): warning:  #223-D: function "sim900a_star_connect" declared implicitly
+        if(sim900a_star_connect(1,IP,PORT))
+test.c(332): warning:  #550-D: variable "key" was set but never used
+        u8 *key=0;
+test.c(646): warning:  #186-D: pointless comparison of unsigned integer with zero
+                if(tmp < 0 || tmp > 255);
+test.c(650): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(tmp >= 0 && tmp < 100) PORT[0] = tmp;
+test.c(652): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(tmp >= 0 && tmp < 100) PORT[1] = tmp;
+test.c(677): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+                if(file_dir_pointer == i) Show_Str(10,85+i*17,240,16,file_dir[i+page*10],16,0,BRED,LIGHTBLUE,0);
+test.c(678): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+                else Show_Str(10,85+i*17,240,16,file_dir[i+page*10],16,0,BRED,BLACK,0);
+test.c(689): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+                LCD_ShowString(0,50,144,12,12,file_path+2,WHITE,BLACK,0);
+test.c(691): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+                LCD_ShowString(174,50,240,12,12,file_path+len-11,WHITE,BLACK,0);
+test.c(693): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        else LCD_ShowString(0,50,240,12,12,file_path+2,WHITE,BLACK,0);
+test.c(770): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+        sprintf(p2,"%s端口%02d:",p,port_num);
+test.c(793): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+                                read_buffer_len = strlen(txt_read_buffer);
+test.c(856): warning:  #68-D: integer conversion resulted in a change of sign
+                                        address_pointer=-1;
+test.c(898): warning:  #68-D: integer conversion resulted in a change of sign
+                                        address_pointer=-1;
+test.c(904): warning:  #68-D: integer conversion resulted in a change of sign
+                                        address_pointer=-1;
+test.c(1096): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+        len = strlen(USART2_RX_BUF);
+test.c(1099): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+        sprintf(path,"0:/Temperature/%04d/%02d/%02d/%s",calendar.w_year,calendar.w_month,calendar.w_date,USART2_RX_BUF);
+test.c(1100): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+        if(f_opendir(&dir,path) != FR_OK){//原先没有该文件夹，逐步创建
+test.c(1101): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                sprintf(path,"0:/Temperature/%04d",calendar.w_year);
+test.c(1102): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+                f_mkdir(path);
+test.c(1103): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                sprintf(path,"0:/Temperature/%04d/%02d",calendar.w_year,calendar.w_month);
+test.c(1104): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+                f_mkdir(path);
+test.c(1105): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                sprintf(path,"0:/Temperature/%04d/%02d/%02d",calendar.w_year,calendar.w_month,calendar.w_date);
+test.c(1106): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+                f_mkdir(path);
+test.c(1107): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                sprintf(path,"0:/Temperature/%04d/%02d/%02d/%s",calendar.w_year,calendar.w_month,calendar.w_date,USART2_RX_BUF);
+test.c(1108): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+                f_mkdir(path);
+test.c(1111): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+        sprintf(path,"0:/Temperature/%04d/%02d/%02d/%s",calendar.w_year,calendar.w_month,calendar.w_date,USART2_RX_BUF);
+test.c(1112): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+        if(f_opendir(&dir,path) == FR_OK){
+test.c(1118): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                        sprintf(path,"0:/Temperature/%04d/%02d/%02d/%s/port%02d.txt",calendar.w_year,calendar.w_month,calendar.w_date,USART2_RX_BUF,id+offset);
+test.c(1120): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+                        if(f_open(&fp, path, FA_OPEN_ALWAYS | FA_WRITE) == FR_OK){
+test.c(1122): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                                        sprintf(p,"[%02d:%02d:%02d]%03.2f℃\r\n",hour,minute,second,temperature);
+test.c(1123): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+                                        data_len = strlen(p);
+test.c(1159): warning:  #223-D: function "sim900a_send" declared implicitly
+        sim900a_send(USART2_RX_BUF);
+test.c(1193): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+        len = strlen(str);
+test.c(1246): warning:  #174-D: expression has no effect
+                                if(l4>'9') l4 ==7;
+test.c(1275): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+        if(strlen(tmp)!=14) return;
+test.c(1354): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+      f_mkdir (file_dir);//创建文件夹
+test.c(1321): warning:  #177-D: variable "buffer_pointer" was declared but never referenced
+        u16 buffer_pointer=0;
+test.c(1322): warning:  #177-D: variable "t" was declared but never referenced
+      u8 t,len,counter=0;
+test.c(1322): warning:  #177-D: variable "len" was declared but never referenced
+      u8 t,len,counter=0;
+test.c(1322): warning:  #177-D: variable "counter" was declared but never referenced
+      u8 t,len,counter=0;
+test.c(1323): warning:  #177-D: variable "touch_command" was declared but never referenced
+      u8 touch_err,*touch_msg,touch_command;
+test.c(1324): warning:  #177-D: variable "key_val" was declared but never referenced
+      u8 key_val,key_err,*key_msg;
+test.c(1327): warning:  #177-D: variable "GSM_val" was declared but never referenced
+      u8 GSM_val,GSM_err,*GSM_msg;
+test.c(1327): warning:  #177-D: variable "GSM_err" was declared but never referenced
+      u8 GSM_val,GSM_err,*GSM_msg;
+test.c(1327): warning:  #177-D: variable "GSM_msg" was declared but never referenced
+      u8 GSM_val,GSM_err,*GSM_msg;
+test.c(1330): warning:  #177-D: variable "c" was declared but never referenced
+        u8 c=0;
+test.c(1331): warning:  #177-D: variable "k" was declared but never referenced
+      u16 i,j,k,l,x=0,y=0,x0=0,y0=0,y1=0;
+test.c(1331): warning:  #177-D: variable "x" was declared but never referenced
+      u16 i,j,k,l,x=0,y=0,x0=0,y0=0,y1=0;
+test.c(1331): warning:  #177-D: variable "y" was declared but never referenced
+      u16 i,j,k,l,x=0,y=0,x0=0,y0=0,y1=0;
+test.c(1331): warning:  #177-D: variable "x0" was declared but never referenced
+      u16 i,j,k,l,x=0,y=0,x0=0,y0=0,y1=0;
+test.c(1331): warning:  #177-D: variable "y0" was declared but never referenced
+      u16 i,j,k,l,x=0,y=0,x0=0,y0=0,y1=0;
+test.c(1331): warning:  #177-D: variable "y1" was declared but never referenced
+      u16 i,j,k,l,x=0,y=0,x0=0,y0=0,y1=0;
+test.c(1332): warning:  #177-D: variable "temp0" was declared but never referenced
+      float temp0=0,temp1=0;
+test.c(1332): warning:  #177-D: variable "temp1" was declared but never referenced
+      float temp0=0,temp1=0;
+test.c(1334): warning:  #177-D: variable "first_open" was declared but never referenced
+      static u8 first_open=TRUE;
+test.c(1335): warning:  #177-D: variable "p1" was declared but never referenced
+      u8 p1[300]={0};
+test.c(1336): warning:  #177-D: variable "tmp_buff" was declared but never referenced
+        u8 tmp_buff[300],pp[10];
+test.c(1336): warning:  #177-D: variable "pp" was declared but never referenced
+        u8 tmp_buff[300],pp[10];
+test.c(1337): warning:  #177-D: variable "data_len" was declared but never referenced
+      u8 data_len=0;
+test.c(1338): warning:  #177-D: variable "read_buf" was declared but never referenced
+      u8 read_buf[READ_LEN]={0};
+test.c(1339): warning:  #177-D: variable "pos" was declared but never referenced
+                u8 pos;
+test.c(1340): warning:  #177-D: variable "flag" was declared but never referenced
+                u16 flag=8;
+test.c(1341): warning:  #177-D: variable "tmp1" was declared but never referenced
+                float tmp1,tmp2;
+test.c(1341): warning:  #177-D: variable "tmp2" was declared but never referenced
+                float tmp1,tmp2;
+test.c(1342): warning:  #177-D: variable "adcx" was declared but never referenced
+                u16 adcx,ph;
+test.c(1342): warning:  #177-D: variable "ph" was declared but never referenced
+                u16 adcx,ph;
+test.c(1343): warning:  #177-D: variable "count_down" was declared but never referenced
+                u8 count_down=0;
+test.c(45): warning:  #177-D: variable "GUI_TASK_STK" was declared but never referenced
+  __align(8) static OS_STK GUI_TASK_STK[GUI_STK_SIZE];         //任务堆栈，8字节对齐
+test.c(53): warning:  #177-D: variable "BAR_TASK_STK" was declared but never referenced
+  __align(8) static OS_STK BAR_TASK_STK[BAR_STK_SIZE];         //任务堆栈，8字节对齐
+test.c(157): warning:  #550-D: variable "connect_sta" was set but never used
+  static u8 connect_sta=0;
+test.c: 72 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+..\SYSTEM\usart\usart.c(272): warning:  #223-D: function "delay_us" declared implicitly
+        delay_us(5);
+..\SYSTEM\usart\usart.c(386): warning:  #1-D: last line of file ends without a newline
+  ///////////////////////////////////
+..\SYSTEM\usart\usart.c: 2 warnings, 0 errors
+compiling key.c...
+compiling led.c...
+compiling timer.c...
+compiling ILI93xx.c...
+compiling rtc.c...
+compiling wkup.c...
+compiling adc.c...
+compiling 24cxx.c...
+compiling myiic.c...
+compiling spi.c...
+compiling flash.c...
+compiling touch.c...
+compiling ctiic.c...
+compiling ott2001a.c...
+compiling gt9147.c...
+compiling ds18b20.c...
+compiling MMC_SD.C...
+compiling wdg.c...
+compiling gsm.c...
+..\HARDWARE\GSM\gsm.h(30): warning:  #1295-D: Deprecated declaration work - give arg types
+  u8 work();
+..\HARDWARE\GSM\gsm.c(248): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+        sprintf(ip,"%d.%d.%d.%d",IP[0],IP[1],IP[2],IP[3]);
+..\HARDWARE\GSM\gsm.c(249): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+        sprintf(port,"%02d%02d",PORT[0],PORT[1]);
+..\HARDWARE\GSM\gsm.c(288): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+        len=strlen(p);
+..\HARDWARE\GSM\gsm.c(439): warning:  #1-D: last line of file ends without a newline
+  }*/
+..\HARDWARE\GSM\gsm.c(11): warning:  #177-D: variable "br" was declared but never referenced
+  static INT32U br,bw;
+..\HARDWARE\GSM\gsm.c(11): warning:  #177-D: variable "bw" was declared but never referenced
+  static INT32U br,bw;
+..\HARDWARE\GSM\gsm.c(176): warning:  #177-D: variable "ip_pointer" was declared but never referenced
+  static u8 ip_pointer=0;
+..\HARDWARE\GSM\gsm.c: 8 warnings, 0 errors
+compiling usart2.c...
+compiling malloc.c...
+compiling diskio.c...
+compiling ff.c...
+compiling exfuns.c...
+compiling fattester.c...
+compiling mycc936.c...
+compiling fontupd.c...
+compiling text.c...
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling os_cpu_c.c...
+assembling os_cpu_a.asm...
+compiling button.c...
+compiling edit.c...
+compiling filelistbox.c...
+compiling gui.c...
+compiling listbox.c...
+compiling memo.c...
+compiling progressbar.c...
+..\GUI\progressbar.c(407): warning:  #550-D: variable "xlen" was set but never used
+      u16 xlen,ylen;
+..\GUI\progressbar.c(407): warning:  #550-D: variable "ylen" was set but never used
+      u16 xlen,ylen;
+..\GUI\progressbar.c: 2 warnings, 0 errors
+compiling scrollbar.c...
+compiling window.c...
+compiling bmp.c...
+compiling gif.c...
+compiling piclib.c...
+compiling tjpgd.c...
+linking...
+Program Size: Code=71694 RO-data=8854 RW-data=856 ZI-data=48008  
+FromELF: creating hex file...
+"..\OBJ\TEST.axf" - 0 Error(s), 84 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\56959\Documents\WeChat Files\wxid_8ramlpifxjlp22\FileStorage\File\2020-05\TEXT20.0(1)\TEXT19.0\TEXT19.0\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

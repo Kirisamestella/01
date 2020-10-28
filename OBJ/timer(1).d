@@ -1,0 +1,10 @@
+..\OBJ\timer.o: ..\HARDWARE\TIMER\timer.c
+..\OBJ\timer.o: ..\HARDWARE\TIMER\timer.h
+..\OBJ\timer.o: ..\SYSTEM\sys\sys.h
+..\OBJ\timer.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\timer.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\timer.o: C:\happy4400_program\Keil_v4.70A\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\timer.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\timer.o: C:\happy4400_program\Keil_v4.70A\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\timer.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\timer.o: ..\HARDWARE\LED\led.h
